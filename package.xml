@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+  <name>elevation_difference_cloud_pub</name>
+  <version>0.0.0</version>
+  <description>The elevation_difference_cloud_pub package</description>
+
+  <maintainer email="humio@todo.todo">humio</maintainer>
+
+  <license>TODO</license>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_srvs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>pcl_ros</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>pcl_msgs</build_depend>
+  <build_depend>laser_geometry</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>pcl_ros</run_depend>
+  <run_depend>pcl_conversions</run_depend>
+  <run_depend>pcl_msgs</run_depend>
+  <run_depend>laser_geometry</run_depend>
+
+</package>
