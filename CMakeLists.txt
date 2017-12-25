@@ -29,7 +29,7 @@ catkin_package(CATKIN_DEPENDS
   LIBRARIES elevation_difference_cloud_pub
 )
 
-include_directories(include/elevation_difference_cloud_pub include/elevation_difference_cloud_pub/map)
+include_directories(include/elevation_difference_cloud_pub include/elevation_difference_cloud_pub/map include/elevation_diffrence_cloud_pub/point_cloud)
 include_directories(${catkin_INCLUDE_DIRS} ${Boost_INCLUDE_DIRS})
 
 add_library(elevation_difference_cloud_pub_map

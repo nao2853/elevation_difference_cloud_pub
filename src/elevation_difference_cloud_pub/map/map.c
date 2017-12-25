@@ -41,7 +41,6 @@ void map_updata_cell(map_t *map, double gx, double gy, double data)
   
   if (!MAP_VALID(map, mi, mj))
     return;
-
   if (map->cells[MAP_INDEX(map,mi,mj)].min == 0.0 && map->cells[MAP_INDEX(map,mi,mj)].max == 0.0) {
     map->cells[MAP_INDEX(map,mi,mj)].min = data;
     map->cells[MAP_INDEX(map,mi,mj)].max = data;

@@ -11,6 +11,7 @@ extern "C" {
 typedef struct
 {
   double min, max, diff;
+  double ave, cov;
 } map_cell_t;
 
 typedef struct
